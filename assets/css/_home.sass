@@ -63,8 +63,9 @@ $bannerBackground: '../img/home_img.png'
             margin-bottom: 1rem
         .partner-container
             display: grid
-            width: 100%
+            width: 80%
             margin: 0 auto
+                left: 10%
             grid:
                 //template-columns: repeat(auto-fill, minmax(200px, 1fr))
                 template-columns: repeat(4, 1fr)
@@ -73,6 +74,8 @@ $bannerBackground: '../img/home_img.png'
             & > div
                 background-color: white
                 border: .5px solid $theme
+                padding: 15px 0
+
                 & > div
                     display: flex
                     align-items: center
@@ -216,6 +219,7 @@ $bannerBackground: '../img/home_img.png'
         width: 4.5rem
         border: 1px solid #efefef
         box-shadow: 0 3px 11px rgba(0,0,0,.25)
+        z-index: 999999999
         img
             height: 2rem
 

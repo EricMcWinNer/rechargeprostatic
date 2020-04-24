@@ -2,10 +2,6 @@
   color: #F53840;
 }
 
-.theme-color {
-  color: #F53840;
-}
-
 .auth {
   min-height: 100vh;
   display: -webkit-box;
@@ -32,7 +28,7 @@
 }
 
 .auth .background {
-  background-image: url("~../../assets/img/authbackground.png");
+  background-image: url("../img/authbackground.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -80,7 +76,7 @@
 }
 
 .auth .content .text {
-  width: 35vw;
+  width: 25vw;
   min-width: 320px;
 }
 
@@ -1003,8 +999,9 @@ nav .actions a.login {
 #home .partners .partner-container {
   display: -ms-grid;
   display: grid;
-  width: 100%;
+  width: 80%;
   margin: 0 auto;
+  margin-left: 10%;
   -ms-grid-columns: (1fr)[4];
       grid-template-columns: repeat(4, 1fr);
   grid-auto-rows: minmax(50px, auto);
@@ -1014,6 +1011,7 @@ nav .actions a.login {
 #home .partners .partner-container > div {
   background-color: white;
   border: 0.5px solid #F53840;
+  padding: 15px 0;
 }
 
 #home .partners .partner-container > div > div {
@@ -1293,6 +1291,7 @@ nav .actions a.login {
   border: 1px solid #efefef;
   -webkit-box-shadow: 0 3px 11px rgba(0, 0, 0, 0.25);
           box-shadow: 0 3px 11px rgba(0, 0, 0, 0.25);
+  z-index: 999999999;
 }
 
 #home .sticky img {

@@ -102,32 +102,40 @@
 
     <link rel="stylesheet" href="lib/owl-carousel/owl.carousel.min.css" />
     <link rel="stylesheet" href="lib/owl-carousel/owl.theme.default.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link rel="stylesheet" href="assets/css/styles.css" />
 
     <title>Rechargepro</title>
   </head>
   <body>
     <div id="home">
+      <!-- NAV STARTS HERE-->
+
       <nav>
         <div class="menu">
           <i class="fas fa-bars"></i>
         </div>
         <img src="assets/img/logo.png" class="logo" />
         <div class="actions inter">
-          <a href="sign-up.html" class="inter">Sign up</a>
-          <a class="login inter" href="/login.html">
+          <a href="signup.html" class="inter">Sign up</a>
+          <a class="login inter" href="login.html">
             Login
           </a>
         </div>
         <div class="dropdown hidden">
           <div class="drop-content">
-            <a href="/sign-up.html">Sign up</a>
-            <a class="login" href="/login">
+            <a href="signup.html">Sign up</a>
+            <a class="login" href="login.html">
               Login
             </a>
           </div>
         </div>
       </nav>
+
+      <!-- NAV ENDS HERE-->
+
+      <!-- HERO ENDS HERE -->
+
       <div id="hero">
         <div class="container">
           <div class="content row">
@@ -143,37 +151,45 @@
               </a>
             </div>
             <div class="col-md-6">
-              <div class="icon-container">
-                <div class="icon-card">
-                  <img src="assets/img/icons/bills.png" alt="Bills" />
-                  <span>Bills</span>
+              <div data-aos="zoom-in">
+                <div class="icon-container">
+                  <div class="icon-card">
+                    <img src="assets/img/icons/bills.png" alt="Bills" />
+                    <span>Bills</span>
+                  </div>
+                  <div class="icon-card">
+                    <img src="assets/img/icons/airtime.png" alt="Airtime" />
+                    <span>Airtime/Data</span>
+                  </div>
                 </div>
-                <div class="icon-card">
-                  <img src="assets/img/icons/airtime.png" alt="Airtime" />
-                  <span>Airtime/Data</span>
-                </div>
-              </div>
-              <div class="icon-container">
-                <div class="icon-card">
-                  <img
-                    src="assets/img/icons/electricity.png"
-                    alt="Electricity"
-                  />
-                  <span>Electricity</span>
-                </div>
-                <div class="icon-card">
-                  <img src="assets/img/icons/cable.png" alt="Cable" />
-                  <span>Cable TV</span>
+                <div class="icon-container">
+                  <div class="icon-card">
+                    <img
+                      src="assets/img/icons/electricity.png"
+                      alt="Electricity"
+                    />
+                    <span>Electricity</span>
+                  </div>
+                  <div class="icon-card">
+                    <img src="assets/img/icons/cable.png" alt="Cable" />
+                    <span>Cable TV</span>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
+
+      <!-- HERO ENDS HERE -->
+
+      <!-- PHONE GIFS START HERE -->
       <div class="container svgs">
         <div class="row">
           <div class="col-md-7">
-            <img src="assets/img/first1.gif" />
+            <div data-aos="fade-right">
+              <img src="assets/img/first1.gif" />
+            </div>
           </div>
           <div class="col-md-5">
             <h2>Top up and pay bills</h2>
@@ -192,10 +208,17 @@
             </p>
           </div>
           <div class="col-md-7">
-            <img src="assets/img/second.gif" />
+            <div data-aos="fade-left" >
+              <img src="assets/img/second.gif" />
+            </div>
           </div>
         </div>
       </div>
+
+      <!-- PHONE GIF SECTION ENDS HERE -->
+
+      <!-- AGENT SECTION STARTS HERE -->
+
       <div class="agent-section">
         <div class="background">
           <img src="assets/img/agent.jpg" />
@@ -209,12 +232,22 @@
           <a href="#">Sign up</a>
         </div>
       </div>
+
+      <!-- AGENT SECTION ENDS HERE-->
+
+      <!-- SECURE SECTION STARTS HERE-->
+
       <div class="secure">
-        <div>
+        <div data-aos="fade-up">
           <img src="assets/img/icons/security.svg" />
           <h2>Your security is guaranteed and it is our first priority</h2>
         </div>
       </div>
+
+      <!-- SECURE SECTION ENDS HERE -->
+
+      <!-- PARTNERS SECTION STARTS HERE-->
+
       <div class="partners">
         <h1>Our partners</h1>
         <p>
@@ -239,7 +272,7 @@
           </div>
           <div class="partner">
             <div>
-              <img src="assets/img/MTN-logo-459AAF9482-seeklogo.com.png" />
+              <img src="assets/img/mtn.png" />
             </div>
           </div>
           <div class="partner">
@@ -256,6 +289,11 @@
           </div>
         </div>
       </div>
+
+      <!-- PARTNERS SECTION ENDS HERE -->
+
+      <!-- FEEDBACK QUESTION SECTION STARTS HERE -->
+
       <div class="feedback">
         <h2>Got questions or feedback?</h2>
         <div class="icons">
@@ -264,47 +302,53 @@
         </div>
       </div>
 
+      <!-- FEEDBACK QUESTION SECTION ENDS HERE -->
+
+      <!-- TESTIMONIAL SECTION STARTS HERE -->
+
       <div class="testimonials">
         <h2>Testimonials</h2>
         <div class="testimonial-carousel mt-3">
           <div class="container">
-            <div class="owl-carousel owl-theme">
-              <div class="item">
-                <div class="testimonial">
-                  <p class="inter">
-                    Lorem ipsum dolor sit amet, consecteteur adipsicing elit.
-                    Aenean commodo ligula eget dolor. Aenean massa. Cum sociis
-                    natoque penatibus et magnis dis
-                  </p>
-                  <div class="testifier">
-                    <div class="img"></div>
-                    <p class="inter">Jennifer Alison</p>
+            <div data-aos="zoom-in">
+              <div class="owl-carousel owl-theme">
+                <div class="item">
+                  <div class="testimonial">
+                    <p class="inter">
+                      Lorem ipsum dolor sit amet, consecteteur adipsicing elit.
+                      Aenean commodo ligula eget dolor. Aenean massa. Cum sociis
+                      natoque penatibus et magnis dis
+                    </p>
+                    <div class="testifier">
+                      <div class="img"></div>
+                      <p class="inter">Jennifer Alison</p>
+                    </div>
                   </div>
                 </div>
-              </div>
-              <div class="item">
-                <div class="testimonial">
-                  <p class="inter">
-                    Lorem ipsum dolor sit amet, consecteteur adipsicing elit.
-                    Aenean commodo ligula eget dolor. Aenean massa. Cum sociis
-                    natoque penatibus et magnis dis
-                  </p>
-                  <div class="testifier">
-                    <div class="img"></div>
-                    <p class="inter">Jennifer Alison</p>
+                <div class="item">
+                  <div class="testimonial">
+                    <p class="inter">
+                      Lorem ipsum dolor sit amet, consecteteur adipsicing elit.
+                      Aenean commodo ligula eget dolor. Aenean massa. Cum sociis
+                      natoque penatibus et magnis dis
+                    </p>
+                    <div class="testifier">
+                      <div class="img"></div>
+                      <p class="inter">Jennifer Alison</p>
+                    </div>
                   </div>
                 </div>
-              </div>
-              <div class="item">
-                <div class="testimonial">
-                  <p class="inter">
-                    Lorem ipsum dolor sit amet, consecteteur adipsicing elit.
-                    Aenean commodo ligula eget dolor. Aenean massa. Cum sociis
-                    natoque penatibus et magnis dis
-                  </p>
-                  <div class="testifier">
-                    <div class="img"></div>
-                    <p class="inter">Jennifer Alison</p>
+                <div class="item">
+                  <div class="testimonial">
+                    <p class="inter">
+                      Lorem ipsum dolor sit amet, consecteteur adipsicing elit.
+                      Aenean commodo ligula eget dolor. Aenean massa. Cum sociis
+                      natoque penatibus et magnis dis
+                    </p>
+                    <div class="testifier">
+                      <div class="img"></div>
+                      <p class="inter">Jennifer Alison</p>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -312,6 +356,10 @@
           </div>
         </div>
       </div>
+
+      <!-- TESTIMONIAL SECTION ENDS HERE-->
+
+      <!-- FOOTER SECTION STARTS HERE-->
 
       <footer>
         <div class="footer">
@@ -386,6 +434,9 @@
         </div>
         <div class="sub-footer"></div>
       </footer>
+
+      <!-- FOOTER SECTION ENDS HERE-->
+
       <div class="sticky">
         <img src="assets/img/icons/chat-01.png" />
       </div>
@@ -407,6 +458,7 @@
       crossorigin="anonymous"
     ></script>
     <script src="lib/owl-carousel/owl.carousel.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
       $(".owl-carousel").owlCarousel({
         loop: true,
@@ -425,6 +477,14 @@
           },
         },
       })
+      $(document).ready(function () {
+        $(".menu").click(function () {
+          $(".dropdown").toggleClass("hidden")
+        })
+      })
+      AOS.init({
+        once: true
+      });
     </script>
   </body>
 </html>
